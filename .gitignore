@@ -1,0 +1,27 @@
+# Private keys and credentials
+*.pem
+*.ppk
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.aws/
+.env
+vault-password-file
+
+# Ansible generated files
+*.retry
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
